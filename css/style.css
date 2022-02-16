@@ -1,0 +1,294 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Playfair Display, serif;
+	font-size: 16px;
+	font-weight:400 ;
+	color: #626262;
+
+}
+
+/*common start*/
+
+/*header start*/
+
+ header{
+	/*border: 1px solid black;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 13px;
+	width: 10%;
+/*	border: 1px solid black;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+/*	border: 1px solid black;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	   display: inline-block;
+		color: #626262;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin: 0 50px;
+		border-bottom: 1px solid transparent;
+		transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*pefect start*/
+
+.perfect{
+	padding-top: 100px;
+	padding-bottom: 30px;
+	/*border: 1px solid black;*/
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+
+}
+.c_text{
+	line-height: 25px;
+	margin: 0;
+}
+.mb_40{
+	margin-bottom: 40px;
+
+
+}
+
+
+
+/*perfect end*/
+
+/*blog start*/
+.blog{
+	padding-top: 30px;
+	padding-bottom: 100px;
+
+}
+.blog2{
+	padding-bottom: 80px;
+
+}
+.single{
+	margin-top: 70px;
+	width: 47%;
+	/*border: 1px solid blue;*/
+	float: left;
+
+}
+.single:nth-child(even){
+	margin-left: 6%;
+
+}
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end*/
+
+
+
+
+/*contact start*/
+.contact{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+
+.container3{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 76px;
+}
+.forform{
+	width: 300px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.forform input{
+	border: none;
+	background: transparent;
+border-bottom: 2px solid black;
+width: 240px;
+font-size: 18px;
+padding: 10px 50px 10px 10px;
+outline: none;
+}
+.forform button{
+	border: none;
+	background: transparent;
+	position: absolute;
+    top: 11px;
+    right: 2px;
+}
+
+
+/*contact end*/
+/*blog2 start*/
+
+
+/*blog2 end*/
+
+/*Load more start*/
+
+.load{
+	text-align: center;
+	margin: 63px 1px 136px;
+}
+.btn{
+	font-family: Playfair Display, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+	width: 160px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262 ;
+	transition: .3s;
+}
+.btn:hover{
+	background-color:#626262 ;
+	color: white;
+}
+/*Load more end*/
+
+
+/*footer start*/
+
+.footer{}
+.container{}
+.containerlast{
+	background-color:#f0f0f0 ;
+	
+}
+.container4{
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+
+}
+
+
+.term{
+	width: 30%;
+	/*border: 1px solid black;*/
+	float: left;
+	margin: 20px 22px;
+}
+.term ul {
+	float: left;
+}
+.term ul li {
+	list-style: none;
+	float: left;
+}
+.term ul li a{
+	    display: inline-block;
+		color: #626262;
+		text-decoration: none;
+		margin: 0 13px;
+		border-bottom: 1px solid transparent;
+		transition: .3s;
+		font-weight: 700;
+		float: left;
+}
+.term ul li:first-child a{
+	margin-left: 0;
+}
+
+
+
+.social{
+	width: 15%;
+	/*border: 1px solid black;*/
+	float: right;
+	margin: 20px 22px;
+}
+.social ul{
+	float: left;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+}
+.social ul li a{
+	    display: inline-block;
+		color: #626262;
+		text-decoration: none;
+		margin: 0 12px;
+		border-bottom: 1px solid transparent;
+		transition: .3s;
+		font-weight: 700;
+		float: left;
+}
+.social ul li:last-child a{}
+
+
+
+/*footer end*/
